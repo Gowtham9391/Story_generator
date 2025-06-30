@@ -3,7 +3,7 @@ import requests
 from prompts import build_story_prompt
 
 # Hugging Face API Key
-HUGGINGFACE_API_KEY = "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"  # Keep secure
+HUGGINGFACE_API_KEY = "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"  # Keep secure
 
 # Query Function
 def query_huggingface_model(prompt, model="tiiuae/falcon-7b-instruct"):
